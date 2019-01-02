@@ -11,7 +11,7 @@
 | Pausar um container             | docker stop `image_name`                       |
 | Listar todos o container ativos | docker container ls                            |
 | Deletar uma imagem              | docker rmi `image_id`                          |
-| Compor a imagem com `docker-composer` | s                                        |
+| Compor a imagem com `docker-composer` | docker up -d                             |
 
 
 # Extras
