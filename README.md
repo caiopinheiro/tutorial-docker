@@ -1,4 +1,4 @@
-#Tutorial de docker
+# Tutorial de docker
 
 Lista de comandos utilizados:
 
@@ -12,7 +12,7 @@ Lista de comandos utilizados:
 | Listar todos o container ativos | docker container ls                            |
 | Deletar uma imagem              | docker rmi `image_id`                          |
 
-#Extras
+# Extras
 
 * Habilitar o postgres:
 
