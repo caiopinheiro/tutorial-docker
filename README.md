@@ -1,8 +1,8 @@
 # Tutorial de docker
 
-Lista de comandos utilizados:
+## Lista de comandos utilizados:
 
-|Descrição              | Comando  |
+|Descrição                        | Comando  |
 |---------------------------------|------------------------------------------------|
 | Construir uma imagem            | docker build -t `image_name` `path/Dockerfile` |
 | Gerar um container (attach)     | docker run -p 3000:3000 `image_name`           |
@@ -11,8 +11,17 @@ Lista de comandos utilizados:
 | Pausar um container             | docker stop `image_name`                       |
 | Listar todos o container ativos | docker container ls                            |
 | Deletar uma imagem              | docker rmi `image_id`                          |
+| Compor a imagem com `docker-composer` | s                                        |
+
 
 # Extras
+* Modificar o local de armazenamento das imagens:
+ Criar o arquivo `/etc/docker/daemon.json` com o seguinte conteúdo: 
+```json
+{
+  "graph":"/local/da/sua/pastinha"
+}
+```
 
 * Habilitar o postgres:
 
