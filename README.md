@@ -27,3 +27,5 @@
 
 `docker run --add-host=docker:$(ip route get 1 | grep -Eo 'src \S+' | awk '{ print $2 }') -p 3000:3000 your-app-name`
 
+* Volumes:
+Ao criar um volume, verificar se existe permissão de reflexão para que as alterações sejam refleticas (777 é bem aberto)
